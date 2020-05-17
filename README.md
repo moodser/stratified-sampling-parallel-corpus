@@ -1,2 +1,2 @@
-# stratified-sampling-parallel-corpus
-Python script to split the parallel corpus in train, test and validation set using stratified random sampling.
+# Stratified Random Sampling for Parallel Coprus
+While developing a corpus, data from different domains and sources is used and it is very rare that you find exact propostion of data from these different domains/sources. So instead of just collecting and dumping data, it is better to use sampling technique to adequately split the data into train, test and dev set. This python script can be used to split your data (collected from different sources) into train, test and dev/validation set using stratified random sampling. 
